@@ -10,7 +10,7 @@ class LineTooLongException extends RuntimeException {
 
 public class FileLineReader {
     public static void main(String[] args) {
-        String path = "C:\\Users\\geo\\Downloads\\access (2).log"; // Укажите путь к вашему файлу
+        String path = "C:\\Users\\geo\\Downloads\\access.log"; // Укажите путь к вашему файлу
         int lineCount = 0;
         int maxLength = 0;
         int minLength = Integer.MAX_VALUE;
